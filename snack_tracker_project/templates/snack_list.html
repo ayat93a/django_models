@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for i in snack_list %}
+    <p>
+        {{i.name}} --- {{i.purchaser}} --- {{i.description}}
+    </p>
+
+    {% endfor %}
+{% endblock %}
