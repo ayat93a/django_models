@@ -15,7 +15,7 @@
 - link in snack_list template to related detail page for each snack
 -  link back to Home (snack_list) page from detail page.
 
-To run this project in your device :
+# To run this project in your device :
 ```
 - $ git clone git@github.com:ayat93a/django_models.git
 - $ cd snacks_crud_project
